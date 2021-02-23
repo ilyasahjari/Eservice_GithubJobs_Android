@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Github Jobs</string>
+    <string name="no_countries">No Jobs</string>
+    <string name="no_connection">No Internet Connection</string>
+    <string name="url_for_downloading_poster">http://image.tmdb.org/t/p/w342</string>
+    <string name="url_for_downloading_backdrop">http://image.tmdb.org/t/p/original</string>
+    <string name="url_for_youtube_trailer">http://www.youtube.com/watch?v=</string>
+    <string name="sort_by">Sort By</string>
+    <string name="favorites">Change display</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="videos">Videos</string>
+    <string name="reviews">Reviews</string>
+</resources>
