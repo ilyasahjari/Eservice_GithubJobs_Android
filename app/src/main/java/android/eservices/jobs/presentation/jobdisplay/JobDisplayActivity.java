@@ -58,7 +58,7 @@ public class JobDisplayActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.sort_by_favorite:
+            case R.id.changeLayout:
                 listFragment.changeLayout();
                 break;
         }

@@ -53,9 +53,11 @@ public class job_activity extends AppCompatActivity {
         typeTextView.setText(type);
         companyNameTextView.setText(companyName);
         descriptionTextView.setText(Html.fromHtml(description));
-        Glide.with(nameTextView.getContext())
-                .load(Uri.parse(urlPoster))
-                .into(thumbnailImageView);
+        if(urlPoster!= null) {
+            Glide.with(nameTextView.getContext())
+                    .load(Uri.parse(urlPoster))
+                    .into(thumbnailImageView);
+        }
     }
 
 }
